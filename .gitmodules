@@ -1,0 +1,3 @@
+[submodule "hub-purge"]
+	path = hub-purge
+	url = https://github.com/mpyw/hub-purge.git
