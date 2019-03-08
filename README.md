@@ -1,5 +1,5 @@
 # hub-purge-dockerfile
-[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/hub-purge.svg)](https://hub.docker.com/r/nwtgck/hub-purge/)
+[![Docker Automated build](https://img.shields.io/docker/automated/nwtgck/hub-purge.svg)](https://hub.docker.com/r/nwtgck/hub-purge/) [![](https://images.microbadger.com/badges/image/nwtgck/hub-purge.svg)](https://microbadger.com/images/nwtgck/hub-purge "Get your own image badge on microbadger.com")
 
 Docker image for [`hub-purge`](https://github.com/mpyw/hub-purge), which 
 clears GitHub image caches on README
