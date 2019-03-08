@@ -7,12 +7,12 @@ clears GitHub image caches on README
 ## Usage
 
 ```bash
-docker run --rm nwtgck/hub-purge <USER1>/<REPO1> <USER2>/<REPO2> <USER3>/<REPO3>
+docker run --rm nwtgck/hub-purge <user1>/<repo1> <user2>/<repo2> ... <userN>/<repoN>
 ```
 
 ### Example Usage
 
-The following command clears image caches in repositories, [`nwtgck/trans-server-akka`](https://github.com/nwtgck/trans-server-akka) and [`nwtgck/ts-copyable-npm`](https://github.com/nwtgck/ts-copyable-npm).
+The following command clears image caches in two repositories, [`nwtgck/trans-server-akka`](https://github.com/nwtgck/trans-server-akka) and [`nwtgck/ts-copyable-npm`](https://github.com/nwtgck/ts-copyable-npm).
 
 ```bash
 docker run --rm nwtgck/hub-purge nwtgck/trans-server-akka nwtgck/ts-copyable-npm
